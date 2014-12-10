@@ -1,0 +1,110 @@
+.header-nonbs {
+  height: 412px;
+  background: url("../img/2.jpg") no-repeat 50% 50%; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+}
+
+.navbar{
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+    box-shadow: 3px 3px 5px -2px #333;
+    padding: 1em 0;
+}
+.navbar-default .navbar-nav > li > a{
+  color:#fff;
+}
+
+.footer-nonbs {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  margin-top: 20px;
+  color: #999
+}
+/**********************
+These styles just create a bit
+of extra space for the header
+ and the footer.
+**********************/
+a{
+  font-weight:bold;
+  font-size:1.7rem;
+}
+p{
+    text-align:justify;
+    line-height: 3rem;  
+}
+footer p{
+    color:#9d9d9d;
+    text-align:center;
+    
+}
+h1,h3,h4{
+    color:#A80000;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+}
+.panel-footer {
+    background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+    box-shadow: 3px 3px 5px -2px #333;
+    padding: 1em 0;
+    border-radius: 4px;
+    border-color: #080808;
+    margin-top:20px;
+
+}
+img {
+    float:left;
+    margin-right:10px;
+}
+.body{
+    background-color:#FFEBEB;
+}
+
+/*Stnding*/
+
+.standings
+{
+   height: 412px;
+  background: url("../img/standings-cover.jpg") no-repeat 50% 50%; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+} 
+
+.locations
+{
+   height: 412px;
+  background: url("../img/locations-cover.jpg") no-repeat 50% 50%; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+} 
+
+.sign-up
+{
+   height: 412px;
+  background: url("../img/sign%20up%20cover%20.jpg") no-repeat 50% 50%; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+} 
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1.5px;
+}
+
+

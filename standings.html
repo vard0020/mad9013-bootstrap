@@ -1,0 +1,423 @@
+    <!DOCTYPE html>
+    <html>
+     <head>
+            <title>Bootstrap Sports Site</title>
+            <link rel= "stylesheet" href="css/stylesheet.css">
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+         <link rel= "stylesheet" href="css/stylesheet.css">
+            <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+     </head>
+     <body>
+          <div class="container">
+         <!-- header Section-->
+  <!-- classes in this page that 
+      end with -nonbs 
+      are non-bootstrap classes
+  -->
+        
+  <div class="row header-nonbs">
+    <div class="col-xs-12 text-right standings">
+<!--      <h1>FIFA World Cup Brazil</h1>-->
+    </div>
+  </div>
+  
+  <div class="row navigation-bar">
+      <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="demo-navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class=""><a href="index.html">Home</a></li>
+              <li><a href="standings.html">Standings</a></li>
+              <li><a href="locations.html">Locations</a></li>
+              <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+            <form class="navbar-form navbar-left pull-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </div>
+  
+  <!--  Content Area-->
+  <div class="row content">
+    <div class="col-md-12 col-sm-2">
+      <button class="btn btn-success right" type="button">
+        Groups <span class="badge">A-H</span>
+      </button>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Group A</th>
+            <th>Group B</th>
+            <th>Group C</th>
+            <th>Group D</th>
+            <th>Group E</th>
+            <th>Group F</th>
+            <th>Group G</th>
+            <th>Group H</th> 
+          </tr>
+        </thead>
+        <tbody>
+          <tr class = "bg-success">
+            <td><img src="../img/Brazil.png">Brazil </td>
+            <td><img src="../img/Netherlands.png">Netherlands</td>
+            <td><img src="../img/Colombia.png">Columbia</td>
+            <td><img src="../img/Costa%20Rica.png">Costa Rica</td>
+            <td><img src="../img/France.png">France</td>
+            <td><img src="../img/Argentina.png">Argentina</td>
+            <td><img src="../img/Germany.png">Germany</td>
+            <td><img src="../img/Belgium.png">Belgium</td>
+          </tr>
+          
+            
+            <tr class = "bg-danger">
+            <td><img src="../img/Mexico.png">Mexico</td>
+            <td><img src="../img/Chile.png">Chile</td>
+            <td><img src="../img/Greece.png">Greece</td>
+            <td><img src="../img/Uruguay.png">Uruguay</td>
+            <td><img src="../img/Switzerland.png">Switzerland</td>
+            <td><img src="../img/Nigeria.png">Nigeria</td>
+            <td><img src="../img/USA.png">USA</td>
+            <td><img src="../img/Algeria.png">Algeria</td>
+          </tr>
+          
+            
+            <tr class = "bg-info">
+            <td><img src="../img/Croatia.png">Croatia</td>
+            <td><img src="../img/Spain.png">Spain</td>
+            <td><img src="../img/Cote%20d'Ivoire.png">Cote D'ivoire</td>
+            <td><img src="../img/Italy.png">Italy</td>
+            <td><img src="../img/Ecuador.png">Ecuador</td>
+            <td><img src="../img/Armenia.png">Armenia</td>
+            <td><img src="../img/Portugal.png">Portugal</td>
+            <td><img src="../img/Russian%20Federation.png">Russia</td>
+          </tr>
+          
+            
+            <tr class = "bg-warning">
+            <td><img src="../img/Cameroon.png">Cameroon</td>
+            <td><img src="../img/Australia.png">Australia</td>
+            <td><img src="../img/Japan.png">Japan</td>
+            <td><img src="../img/England.png">England</td>
+            <td><img src="../img/Honduras.png">Honduras</td>
+            <td><img src="../img/Iran.png">Iran</td>
+            <td><img src="../img/Ghana.png">Ghana</td>
+            <td><img src="../img/Malta.png">Malta</td>
+          </tr>
+        </tbody>
+      </table>
+      
+        
+        <!----------------------Table 2------------------------->
+        <button class="btn btn-success right" type="button">
+        Score Chart <span class="badge"></span>
+      </button>
+         <table class="table" width = "400px">
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>Matches Played</th>
+            <th>Goals For</th>
+            <th>Total Goals</th>
+            <th>Goals Conceded</th>
+            <th>Penalty Goal</th>
+            <th>Open Golas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="../img/Germany.png">Germany</td>
+            <td>7 </td>
+            <td>18</td>
+            <td>18</td>
+            <td>4</td>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+            
+            <tr>
+            <td><img src="../img/Argentina.png">Argentina</td>
+            <td>7 </td>
+            <td>8</td>
+            <td>7</td>
+            <td>4</td>
+            <td>0</td>
+            <td>1</td>
+          </tr>
+            
+            <tr>
+            <td><img src="../img/Brazil.png">Brazil</td>
+            <td>7 </td>
+            <td>11</td>
+            <td>11</td>
+            <td>14</td>
+            <td>1</td>
+            <td>4</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Netherlands.png">Netherlands</td>
+            <td>7 </td>
+            <td>15</td>
+            <td>15</td>
+            <td>4</td>
+            <td>2</td>
+            <td>5</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Colombia.png">Colombia</td>
+            <td>5 </td>
+            <td>12</td>
+            <td>10</td>
+            <td>4</td>
+            <td>2</td>
+            <td>7</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/France.png">France</td>
+            <td>5</td>
+            <td>11</td>
+            <td>8</td>
+            <td>3</td>
+            <td>1</td>
+            <td>9
+            </td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Belgium.png">Belgium</td>
+            <td>5 </td>
+            <td>6</td>
+            <td>6</td>
+            <td>4</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+            
+            <tr>
+            <td><img src="../img/Armenia.png">Armenia</td>
+            <td>5 </td>
+            <td>5</td>
+            <td>7</td>
+            <td>4</td>
+            <td>1</td>
+            <td>1</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Costa%20Rica.png">Costa Rica</td>
+            <td>5 </td>
+            <td>4</td>
+            <td>6</td>
+            <td>2</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Switzerland.png">Switzerland</td>
+            <td>4 </td>
+            <td>7</td>
+            <td>8</td>
+            <td>3</td>
+            <td>0</td>
+            <td>2</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/USA.png">USA</td>
+            <td>7 </td>
+            <td>11</td>
+            <td>11</td>
+            <td>14</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Chile.png">Chile</td>
+            <td>4 </td>
+            <td>6</td>
+            <td>6</td>
+            <td>3</td>
+            <td>0</td>
+            <td>4</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Algeria.png">Algeria</td>
+            <td>4 </td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Mexico.png">Mexico</td>
+            <td>4 </td>
+            <td>5</td>
+            <td>5</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Croatia.png">Croatia</td>
+            <td>4 </td>
+            <td>6</td>
+            <td>6</td>
+            <td>3</td>
+            <td>0</td>
+            <td>4</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Cote%20d'Ivoire.png">Cote D'ivoire</td>
+            <td>5 </td>
+            <td>6</td>
+            <td>6</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Ghana.png">Ghana</td>
+            <td>3 </td>
+            <td>4</td>
+            <td>4</td>
+            <td>6</td>
+            <td>0</td>
+            <td>0</td>
+                 
+          </tr>
+            
+             <tr>
+         <td><img src="../img/Spain.png">Spain</td>
+            <td>3</td>
+            <td>4</td>
+            <td>4</td>
+            <td>7</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Portugal.png">Portugal</td>
+            <td>3 </td>
+            <td>4</td>
+            <td>3</td>
+            <td>7</td>
+            <td>0</td>
+            <td>1</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Uruguay.png">Uruguay</td>
+            <td>4 </td>
+            <td>6</td>
+            <td>6</td>
+            <td>3</td>
+            <td>0</td>
+            <td>4</td>
+          </tr>
+            
+             <tr>
+            <td><img src="../img/Ecuador.png">Ecuador</td>
+            <td>3 </td>
+            <td>6</td>
+            <td>3</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+            
+            <tr>
+            <td><img src="../img/Malta.png">Malta</td>
+            <td>3 </td>
+            <td>7</td>
+            <td>3</td>
+            <td>6</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+            
+            <tr>
+            <td><img src="../img/Australia.png">Australia</td>
+            <td>3 </td>
+            <td>3</td>
+            <td>4</td>
+            <td>9</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+        
+            <tr>
+            <td><img src="../img/Greece.png">Greece</td>
+            <td>4 </td>
+            <td>3</td>
+            <td>3</td>
+            <td>5</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+            
+            <tr>
+            <td><img src="../img/Nigeria.png">Nigeria</td>
+            <td>4 </td>
+            <td>3</td>
+            <td>3</td>
+            <td>5</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+            
+            <tr>
+            <td><img src="../img/Italy.png">Italy</td>
+            <td>3 </td>
+            <td>2</td>
+            <td>2</td>
+            <td>3</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <div class="btn-toolbar">
+              <div class="btn-group">
+                <a class="btn" href="#"><i class="icon-align-left"></i></a>
+                <a class="btn" href="#"><i class="icon-align-center"></i></a>
+                <a class="btn" href="#"><i class="icon-align-right"></i></a>
+                <a class="btn" href="#"><i class="icon-align-justify"></i></a>
+              </div>
+            </div>
+    </div>  
+  </div>
+ <footer class="row">
+    <div class="panel-footer text-center">
+        <p>&copy; 2014 MAD&D Nune Vardanyan</p>
+    </div>
+  </footer>   
+    </div>
+         </body>
+    </html>
